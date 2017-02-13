@@ -1,2 +1,25 @@
 {
+    "name": "zuitu/mptt",
+    "type": "library",
+    "description": "Storing trees with the modified preorder tree traversal algorithm",
+    "keywords": ["mptt", "tree"],
+    "homepage": "https://github.com/zuitu/mptt",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xiaoqing.cao",
+            "email": "zuitu@foxmail.com",
+            "homepage": "https://my.oschina.net/theqing/blog",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "mptt": "src"
+        }
+    },
+    "minimum-stability": "dev"
 }
